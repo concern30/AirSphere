@@ -8,7 +8,6 @@ import wind_icon from "../assets/wind.png";
 const Airsphere = () => {
   const inputRef = useRef();
   const [weather, setWeather] = useState(null);
-  const [input, setInput] = useState("");
 
   const allIcons = {
     "01d": clear_icon,
@@ -99,6 +98,8 @@ const Airsphere = () => {
       ) : (
         <p>No weather data available. Please search for a city.</p>
       )}
+      {/* Watermark */}
+      <div className="watermark">AIRSHPHERE</div>
     </div>
   );
 };
