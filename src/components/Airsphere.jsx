@@ -99,7 +99,7 @@ const Airsphere = () => {
         <p>No weather data available. Please search for a city.</p>
       )}
       {/* Watermark */}
-      <div className="watermark">AIRSHPHERE</div>
+      <div className="watermark">AIRSPHERE</div>
     </div>
   );
 };
