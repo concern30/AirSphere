@@ -38,10 +38,6 @@
   font-size: 80px;
   line-height: 1;
 }
-.loaction {
-  color: #fff;
-  font-size: 40px;
-}
 .weather-data {
   width: 100%;
   margin-top: 40px;
@@ -63,4 +59,20 @@
   width: 26px;
   margin-top: 10px;
 }
-
+.location {
+  color: #fff;
+  font-size: 40px;
+}
+.Airsphere {
+  position: relative;
+}
+.watermark {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.1); /* Light watermark effect */
+  font-weight: bold;
+  pointer-events: none; /* Make sure it's not clickable */
+  z-index: 1000;
+}
